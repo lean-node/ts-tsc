@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "tsc src/main.ts",
-    "start": "node src/main.js"
+    "build": "tsc",
+    "start": "node dist/main.js"
   },
   "devDependencies": {
     "@types/node": "^14.17.3",
