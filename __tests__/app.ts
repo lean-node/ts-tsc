@@ -1,7 +1,8 @@
 import request from 'supertest';
+import { server } from '../src/app';
 
 describe('Simple TypeScript Hello World Server', () => {
-  const app = request('http://localhost:3000');
+  const app = request(server);
 
   it('can handle tests written in TypeScript', () => {
     const expected = true;
