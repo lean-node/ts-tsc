@@ -3,7 +3,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node-dev src/main.ts",
-    "start:prod": "node dist/main.js"
+    "start:prod": "node dist/main.js",
+    "lint": "eslint src/**/*.ts"
   },
   "devDependencies": {
     "@types/node": "^14.17.3",
