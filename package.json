@@ -4,8 +4,8 @@
     "build": "tsc",
     "start": "node-dev src/main.ts",
     "start:prod": "node dist/main.js",
-    "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --fix"
+    "lint": "eslint {src,__tests__}/**/*.ts",
+    "lint:fix": "eslint {src,__tests__}/**/*.ts --fix"
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
